@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu Undangan</title>
+    <link rel="stylesheet" href="style.css" />
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poiret+One&display=swap');
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="wrapper">
+            <h1 class="logo">Aku & Kamu </h1>
+            <menu  class="nav_menu">
+                <a href="#bukutamu">Buku Tamu Undangan</a>
+            </menu>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero_container">
+            <h3>Pernikhan</h3>
+            <h1>Aku & Kamu </h1>
+            <h3>Sampai Akhir Hidup</h3>
+        <button onclick="IsiBukuTamu()">Isi Buku Tamu </button>
+    </div>
+</section>
+
+    <section id="bukutamu" class="buku_tamu">
+        <h1>Buku Tamu Undangan </h1>
+        <table>
+        <thead>
+            <tr>
+                <td>No</td>
+                <td>Nama</td>
+                <td>Alamat</td>
+                <td>Ucapan</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
